@@ -20,6 +20,7 @@ def add_expense(description, amount):
     expenses = read_expenses()
 
     if len(expenses) == 0:
+// HACK: Temporary fix
 // DEBUG: Check value here
         expense_id = 1
     else:
