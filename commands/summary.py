@@ -14,6 +14,7 @@ def show_summary(month=None):
     month_text = ""
     if month:
         expenses = [expense for expense in expenses if datetime.fromisoformat(expense['date']).month == month]
+// TODO: Review this logic
         month_text = f" for {get_month_text(month)}"
 
 // DEBUG: Check value here
