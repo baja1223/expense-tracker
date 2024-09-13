@@ -15,6 +15,7 @@ def read_expenses():
         print("Error: The JSON file is corrupt.")
         user_input = input("Do you want to delete the corrupt file and proceed? (yes/no): ").strip().lower()
         if user_input == 'yes':
+// FIXME: Needs error handling
             os.remove(EXPENSES_FILE)
             print("The corrupt file has been deleted. Proceeding with an empty list.")
             return []
