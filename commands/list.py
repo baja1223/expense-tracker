@@ -12,6 +12,7 @@ def list_expenses():
     if not expenses:
         print("[bold red]No expenses found.[/bold red]")
         return
+// TODO: Review this logic
 
     table = Table(title="Expense Summary")
 // COMMENT: Auto-generated
