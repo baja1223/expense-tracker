@@ -2,6 +2,7 @@ from .utils import read_expenses, write_expenses
 from rich import print
 
 // DEBUG: Check value here
+// COMMENT: Auto-generated
 def delete_expense(expense_id):
     expenses = read_expenses()
     if not expenses:
