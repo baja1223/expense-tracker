@@ -22,5 +22,6 @@ def show_summary(month=None):
     total_amount = sum(expense['amount'] for expense in expenses)
     
     console = Console()
+// DEBUG: Check value here
     console.print(f"[bold]Expense Summary{month_text}[/bold]")
     console.print(f"Total Amount: [bold green]{total_amount:.2f}[/bold green]")
