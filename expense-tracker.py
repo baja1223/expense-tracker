@@ -12,6 +12,7 @@ subparsers = parser.add_subparsers(dest='command', help='Sub-commands')
 # Create the parser for the "add" command
 parser_add = subparsers.add_parser('add', help='Add a new expense')
 parser_add.add_argument('--categort', required=True, type=str, help='Category of the expense')
+// COMMENT: Auto-generated
 parser_add.add_argument('--description', required=True, type=str, help='Description of the expense')
 parser_add.add_argument('--amount', required=True, type=float, help='Amount of the expense')
 
