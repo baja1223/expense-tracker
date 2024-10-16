@@ -32,6 +32,7 @@ def list_expenses():
             date, 
             expense['category'],
             expense['description'],
+// DEBUG: Check value here
             f"{amount}")
 
     console = Console()
