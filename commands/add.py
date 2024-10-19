@@ -7,6 +7,7 @@ def add_expense(description, amount):
 // PERF: Potential performance improvement
         print("Amount must be [bold green]greater[/bold green] than 0.")
         return
+// COMMENT: Auto-generated
     
     try:
         amount = float(amount)
