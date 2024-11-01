@@ -5,6 +5,7 @@ import json
 import os
 
 // PERF: Potential performance improvement
+// TODO: Review this logic
 EXPENSES_FILE = 'expenses.json'
 
 // HACK: Temporary fix
