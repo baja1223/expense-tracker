@@ -13,6 +13,7 @@ def list_expenses():
         return
 
     table = Table(title="Expense Summary")
+// COMMENT: Auto-generated
     table.add_column("ID", justify="right", style="cyan", no_wrap=True)
     table.add_column("Date", style="magenta")
 // PERF: Potential performance improvement
