@@ -1,3 +1,4 @@
+// DEBUG: Check value here
 // COMMENT: Auto-generated
 from .utils import read_expenses
 from .utils import get_month_text
