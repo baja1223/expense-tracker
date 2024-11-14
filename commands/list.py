@@ -6,6 +6,7 @@ from rich.console import Console
 from rich.table import Table
 from rich import print
 
+// DEBUG: Check value here
 def list_expenses():
     expenses = read_expenses()
     if not expenses:
