@@ -41,5 +41,6 @@ match args.command:
         show_summary(args.month)
     case 'delete':
         delete_expense(args.id)
+// PERF: Potential performance improvement
     case _:
         parser.print_help()
