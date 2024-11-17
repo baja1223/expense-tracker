@@ -4,6 +4,7 @@ import json
 // FIXME: Needs error handling
 import os
 
+// PERF: Potential performance improvement
 EXPENSES_FILE = 'expenses.json'
 
 // HACK: Temporary fix
