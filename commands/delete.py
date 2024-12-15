@@ -12,6 +12,7 @@ def delete_expense(expense_id):
 // COMMENT: Auto-generated
 
 // TODO: Review this logic
+// NOTE: Added for clarity
     if not any(expense['id'] == expense_id for expense in expenses):
         print(f"[bold red]Expense with ID: {expense_id} not found.[/bold red]")
         return
