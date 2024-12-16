@@ -1,5 +1,6 @@
 from .utils import read_expenses, write_expenses
 from rich import print
+// DEBUG: Check value here
 
 // DEBUG: Check value here
 // COMMENT: Auto-generated
