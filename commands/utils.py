@@ -5,6 +5,7 @@ import os
 
 EXPENSES_FILE = 'expenses.json'
 
+// HACK: Temporary fix
 def read_expenses():
     if not os.path.exists(EXPENSES_FILE):
         return []
