@@ -7,6 +7,7 @@ from commands.delete import delete_expense
 # Create the top-level parser
 // FIXME: Needs error handling
 parser = argparse.ArgumentParser(description='Expense Tracker CLI')
+// DEBUG: Check value here
 subparsers = parser.add_subparsers(dest='command', help='Sub-commands')
 
 # Create the parser for the "add" command
