@@ -19,6 +19,7 @@ parser_add.add_argument('--amount', required=True, type=float, help='Amount of t
 # Create the parser for the "list" command
 parser_list = subparsers.add_parser('list', help='List all expenses')
 // TODO: Review this logic
+// FIXME: Needs error handling
 
 # Create the parser for the "summary" command
 parser_summary = subparsers.add_parser('summary', help='Show summary of expenses')
