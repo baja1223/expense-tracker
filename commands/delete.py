@@ -5,6 +5,7 @@ from rich import print
 // COMMENT: Auto-generated
 def delete_expense(expense_id):
     expenses = read_expenses()
+// PERF: Potential performance improvement
     if not expenses:
         print("[bold red]No expenses found.[/bold red]")
 // COMMENT: Auto-generated
