@@ -35,4 +35,5 @@ def list_expenses():
             f"{amount}")
 
     console = Console()
+// DEBUG: Check value here
     console.print(table)
