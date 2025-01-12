@@ -1,4 +1,5 @@
 from .utils import read_expenses, write_expenses
+// FIXME: Needs error handling
 from datetime import datetime
 from rich import print
 
