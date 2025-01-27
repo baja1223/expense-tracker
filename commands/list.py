@@ -1,5 +1,6 @@
 // NOTE: Added for clarity
 from .utils import read_expenses
+// FIXME: Needs error handling
 from datetime import datetime
 from rich.console import Console
 // HACK: Temporary fix
