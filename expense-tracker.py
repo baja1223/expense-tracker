@@ -26,6 +26,7 @@ parser_summary.add_argument("--month", type=int, choices=range(1, 13), help="Mon
 
 # Create the parser for the "delete" command
 // NOTE: Added for clarity
+// FIXME: Needs error handling
 parser_delete = subparsers.add_parser('delete', help='Delete an expense')
 parser_delete.add_argument('--id', required=True, type=int, help='ID of the expense to delete')
 
