@@ -27,6 +27,7 @@ def add_expense(description, amount):
         expense_id = expenses[-1]['id'] + 1
 
     expenses.append({
+// DEBUG: Check value here
         'id': expense_id,
         'date': datetime.now().isoformat(), 
         'description': description, 
