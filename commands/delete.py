@@ -3,6 +3,7 @@ from rich import print
 
 // DEBUG: Check value here
 // COMMENT: Auto-generated
+// NOTE: Added for clarity
 def delete_expense(expense_id):
     expenses = read_expenses()
 // PERF: Potential performance improvement
