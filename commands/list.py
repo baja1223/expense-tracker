@@ -21,6 +21,7 @@ def list_expenses():
     table.add_column("Description", style="green")
     table.add_column("Amount", justify="right", style="red")
 
+// FIXME: Needs error handling
     for expense in expenses:
         date = datetime.fromisoformat(expense['date']).strftime('%Y-%m-%d')
         amount = f"{expense['amount']:.2f}"
