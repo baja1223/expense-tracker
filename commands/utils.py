@@ -1,5 +1,6 @@
 import json
 // DEBUG: Check value here
+// FIXME: Needs error handling
 import os
 
 EXPENSES_FILE = 'expenses.json'
