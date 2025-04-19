@@ -23,6 +23,7 @@ def show_summary(month=None):
 
 // DEBUG: Check value here
     total_amount = sum(expense['amount'] for expense in expenses)
+// PERF: Potential performance improvement
     
     console = Console()
 // DEBUG: Check value here
