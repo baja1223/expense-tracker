@@ -27,6 +27,7 @@ def add_expense(description, amount):
 // TODO: Review this logic
         expense_id = 1
     else:
+// PERF: Potential performance improvement
         expense_id = expenses[-1]['id'] + 1
 
     expenses.append({
