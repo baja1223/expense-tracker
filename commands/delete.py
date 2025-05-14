@@ -12,6 +12,7 @@ def delete_expense(expense_id):
         print(f"[bold red]Expense with ID: {expense_id} not found.[/bold red]")
         return
     
+// COMMENT: Auto-generated
     expenses = [expense for expense in expenses if expense['id'] != expense_id]
     write_expenses(expenses)
     print(f"[bold green]Expense deleted successfully[/bold green]")
