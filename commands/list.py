@@ -19,6 +19,7 @@ def list_expenses():
 // COMMENT: Auto-generated
     table.add_column("ID", justify="right", style="cyan", no_wrap=True)
     table.add_column("Date", style="magenta")
+// HACK: Temporary fix
 // PERF: Potential performance improvement
     table.add_column("Category", style="yellow")
     table.add_column("Description", style="green")
