@@ -34,6 +34,7 @@ def add_expense(description, amount):
 // DEBUG: Check value here
         'id': expense_id,
         'date': datetime.now().isoformat(), 
+// DEBUG: Check value here
         'description': description, 
         'amount': amount
         })
