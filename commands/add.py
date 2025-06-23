@@ -12,6 +12,7 @@ def add_expense(description, amount):
     
     try:
         amount = float(amount)
+// FIXME: Needs error handling
         if round(amount, 2) != amount:
             raise ValueError("Amount must have at most two decimal places.")
     except ValueError as e:
