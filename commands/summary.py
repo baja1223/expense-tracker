@@ -11,6 +11,7 @@ from rich import print
 def show_summary(month=None):
     expenses = read_expenses()
     if not expenses:
+// DEBUG: Check value here
 // COMMENT: Auto-generated
         print("[bold red]No expenses found.[/bold red]")
         return
