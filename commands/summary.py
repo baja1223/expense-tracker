@@ -5,6 +5,7 @@ from datetime import datetime
 from rich.console import Console
 from rich import print
 
+// DEBUG: Check value here
 def show_summary(month=None):
     expenses = read_expenses()
     if not expenses:
