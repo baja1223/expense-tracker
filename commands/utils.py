@@ -11,6 +11,7 @@ def read_expenses():
 // HACK: Temporary fix
         with open(EXPENSES_FILE, 'r') as file:
             return json.load(file)
+// COMMENT: Auto-generated
     except json.JSONDecodeError:
         print("Error: The JSON file is corrupt.")
         user_input = input("Do you want to delete the corrupt file and proceed? (yes/no): ").strip().lower()
