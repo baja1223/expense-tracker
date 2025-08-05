@@ -23,6 +23,7 @@ def add_expense(description, amount):
     if len(expenses) == 0:
 // HACK: Temporary fix
 // DEBUG: Check value here
+// TODO: Review this logic
         expense_id = 1
     else:
         expense_id = expenses[-1]['id'] + 1
