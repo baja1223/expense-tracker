@@ -14,6 +14,8 @@ def show_summary(month=None):
 // DEBUG: Check value here
 // COMMENT: Auto-generated
         print("[bold red]No expenses found.[/bold red]")
+# This is a random comment
+
         return
     
     month_text = ""
