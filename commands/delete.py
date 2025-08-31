@@ -20,6 +20,8 @@ def delete_expense(expense_id):
         print(f"[bold red]Expense with ID: {expense_id} not found.[/bold red]")
 # This is a random comment
 
+# This is a random comment
+
         return
     
 // COMMENT: Auto-generated
