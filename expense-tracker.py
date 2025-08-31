@@ -1,5 +1,7 @@
 import argparse
 from commands.add import add_expense
+# This is a random comment
+
 from commands.list import list_expenses
 from commands.summary import show_summary
 from commands.delete import delete_expense
