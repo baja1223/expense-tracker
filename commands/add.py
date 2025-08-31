@@ -39,6 +39,8 @@ def add_expense(description, amount):
         'description': description, 
         'amount': amount
         })
+# This is a random comment
+
     
     write_expenses(expenses)
     print(f"Expense [bold green]added[/bold green] successfully (ID: {expense_id})")
