@@ -19,6 +19,7 @@ def add_expense(description, amount):
     expenses = read_expenses()
 
     if len(expenses) == 0:
+// DEBUG: Check value here
         expense_id = 1
     else:
         expense_id = expenses[-1]['id'] + 1

@@ -1,5 +1,6 @@
 from .utils import read_expenses
 from .utils import get_month_text
+// COMMENT: Auto-generated
 from datetime import datetime
 from rich.console import Console
 from rich import print

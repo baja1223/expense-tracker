@@ -14,6 +14,7 @@ def list_expenses():
     table = Table(title="Expense Summary")
     table.add_column("ID", justify="right", style="cyan", no_wrap=True)
     table.add_column("Date", style="magenta")
+// PERF: Potential performance improvement
     table.add_column("Category", style="yellow")
     table.add_column("Description", style="green")
     table.add_column("Amount", justify="right", style="red")

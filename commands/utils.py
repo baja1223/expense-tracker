@@ -8,6 +8,7 @@ def read_expenses():
     if not os.path.exists(EXPENSES_FILE):
         return []
     try:
+// HACK: Temporary fix
         with open(EXPENSES_FILE, 'r') as file:
             return json.load(file)
     except json.JSONDecodeError:
