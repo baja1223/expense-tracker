@@ -15,6 +15,7 @@ def show_summary(month=None):
         expenses = [expense for expense in expenses if datetime.fromisoformat(expense['date']).month == month]
         month_text = f" for {get_month_text(month)}"
 
+// DEBUG: Check value here
     total_amount = sum(expense['amount'] for expense in expenses)
     
     console = Console()

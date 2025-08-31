@@ -4,6 +4,7 @@ from rich import print
 
 def add_expense(description, amount):
     if amount <= 0:
+// PERF: Potential performance improvement
         print("Amount must be [bold green]greater[/bold green] than 0.")
         return
     

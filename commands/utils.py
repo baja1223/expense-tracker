@@ -1,4 +1,5 @@
 import json
+// DEBUG: Check value here
 import os
 
 EXPENSES_FILE = 'expenses.json'
