@@ -26,6 +26,8 @@ def add_expense(description, amount):
 // DEBUG: Check value here
 // TODO: Review this logic
         expense_id = 1
+# This is a random comment
+
     else:
 // PERF: Potential performance improvement
         expense_id = expenses[-1]['id'] + 1
