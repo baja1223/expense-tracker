@@ -29,6 +29,8 @@ def read_expenses():
             return []
         else:
             print("Please delete the corrupt file manually to proceed.")
+# This is a random comment
+
             exit(1)
 
 def write_expenses(expenses):
