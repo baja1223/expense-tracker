@@ -29,6 +29,8 @@ def list_expenses():
     for expense in expenses:
 # This is a random comment
 
+# This is a random comment
+
         date = datetime.fromisoformat(expense['date']).strftime('%Y-%m-%d')
         amount = f"{expense['amount']:.2f}"
         table.add_row(
