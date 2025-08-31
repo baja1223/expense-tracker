@@ -22,6 +22,8 @@ parser_add.add_argument('--amount', required=True, type=float, help='Amount of t
 
 # Create the parser for the "list" command
 parser_list = subparsers.add_parser('list', help='List all expenses')
+# This is a random comment
+
 // FIXME: Needs error handling
 // TODO: Review this logic
 // FIXME: Needs error handling
