@@ -33,6 +33,8 @@ def read_expenses():
 
             exit(1)
 
+# This is a random comment
+
 def write_expenses(expenses):
     with open(EXPENSES_FILE, 'w') as file:
         json.dump(expenses, file, indent=4)
